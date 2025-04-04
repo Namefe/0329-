@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css"/>
     <title>넷마블 게임즈</title>
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
 </head>
 <body class = 'netmarble'>
     <div id="next">
@@ -40,8 +42,8 @@
                         </span>
                         <span class="banner">
                             <span class="hidden">Netmarble Games</span>
-                            <img class="hiddenimg" src="/images/netmarble_positive.png"/>
-                            <img class="hiddenlogo" src="/images/넷마블배경제거.png"/>
+                            <img class="hiddenimg" src="images/netmarble_positive.png"/>
+                            <img class="hiddenlogo" src="images/넷마블배경제거.png"/>
                         </span>   
                     </a>
 </div>
@@ -100,12 +102,11 @@
                                         <sup class="headermainsup">04</sup>
                                     </span>
                                 </span>
-                                <span class="headermenuwrapper">
+                                <span class="headermainmenuwrapper2">
                                     <span class="headermaintitle">Invite You</span>
                                 </span>
                             </a>
                         </li>
-
                     </ul>
                     <ul class="headersublist">
                         <li>
@@ -114,6 +115,7 @@
                                 <i class="iconoutLink"></i>
                             </a>
                         </li>
+                        </ul>
                         <ul class="headersublist">
                             <li>
                                 <a class="headersubtitle">
@@ -121,6 +123,7 @@
                                     <i class="iconoutLink"></i>
                                 </a>
                             </li>
+                            </ul>
                             <ul class="headersublist">
                                 <li>
                                     <a class="headersubtitle">
@@ -130,7 +133,7 @@
                                 </li>
                     </ul>
                 </nav>
-                <div>
+                <div class="closebutton">
                     <button class="closebtn">
                         <i class="header-iconclosebtn">
                             <span class="hidden">닫기</span>
@@ -213,7 +216,7 @@
                                     <div class="illustLogoroll">
                                         <img class="illimg" src="https://ncm-static.nexon.com/_next/static/media/rotate-circle-icon.c54faff8.svg"/>
                                     </div>
-                                    <img class="stopimg" src="/images/넷마블배경제거.png">
+                                    <img class="stopimg" src="images/넷마블배경제거.png">
                                 </div>
                             </div>
                         </div>
@@ -289,7 +292,7 @@
                             </li>
                         </ul>
                     </section>
-                    <section id="playlist" class="pc" style="display:block;">
+                    <section id="playlist" class="pc">
                         <div class="playlistwrapper">
                             <div class="playlist-container">
                                 <div class="playlist-title">
@@ -386,7 +389,7 @@
                         </div>
                     </section>
                     <section class="mobile">
-                        <div class="playlist-mobile" style="top:-775.5px">
+                        <div class="playlist-mobile" >
                             <div class="playlistwrapper">
                                 <div class="playlist-container">
                                     <div class="playlist-title">
@@ -484,7 +487,6 @@
                         </div>
                     </section>
                     <section id="inviteYou">
-                        <div class="invite-anchor"></div>
                         <div class="inviteBackgroundText">
                             <div class="inviteWrapper">
                                 <div class="inviteFadein">
@@ -651,12 +653,5 @@
             </footer>
         </article>
     </div>
-    <script>
-        document.querySelector('.HeaderOpenBtn').addEventListener('click',()=>{
-    document.getElementsByClassName('headernavigation').style.opacity='1';
-})
-    </script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
 </body>
 </html>
